@@ -1,0 +1,39 @@
+Changes to Version 1.0-5
+
+  o Added connect argument to plotMeans() (suggestion of Graham Smith).
+  
+  o Added capability to plot regions under density functions to plotDistr().
+  
+  o Added *gumbel() functions for the Gumbel distribution, parametrized by location and scale.
+
+Changes to Version 1.0-4
+
+  o Added ... argument to Barplot (after Rcmdr bug reported by Fritz Leisch).
+  
+  o Added DeltaMethod().
+
+Changes to Version 1.0-3
+
+  o Fixed bug in rcorr.adjust() that didn't properly convert .000 to <.001 for pairwise-complete
+correlations (reported by Bob Muenchen).
+
+  o Added Barplot() and Dotplot().
+  
+  o Added readXL(), export excel_sheets(), both from readxl package.
+  
+  o Conform to new CRAN package import requirements.
+
+Changes to Version 1.0-2
+
+  o Updated the following inadvertently reverted functions (and docs): partial.cor(), numSummary(), Hist(), rcorr.adjust() (following bug report by Mark Dunning).
+
+  o Hist() reports a warning but doesn't fail for empty groups.
+
+Changes to Version 1.0-1
+
+  o Added "se(mean)" to numSummary().
+
+Changes to Version 1.0-0
+
+  o First version of the package, with functions moved from the Rcmdr package to make them more conveniently available to other CRAN packages (at the suggestion of Liviu Andronic).
+

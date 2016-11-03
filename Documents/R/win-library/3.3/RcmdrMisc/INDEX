@@ -1,0 +1,25 @@
+Barplot                 Bar Plots
+DeltaMethod             Confidence Intervals by the Delta Method
+Dotplot                 Dot Plots
+Gumbel                  The Gumbel Distribution
+Hist                    Plot a Histogram
+KMeans                  K-Means Clustering Using Multiple Random Seeds
+assignCluster           Append a Cluster Membership Variable to a
+                        Dataframe
+bin.var                 Bin a Numeric Varisible
+colPercents             Row, Column, and Total Percentage Tables
+indexplot               Index Plots
+lineplot                Plot a one or more lines.
+mergeRows               Function to Merge Rows of Two Data Frames.
+numSummary              Summary Statistics for Numeric Variables
+partial.cor             Partial Correlations
+plotDistr               Plot a probability density, mass, or
+                        distribution function.
+plotMeans               Plot Means for One or Two-Way Layout
+rcorr.adjust            Compute Pearson or Spearman Correlations with
+                        p-Values
+readXL                  Read an Excel File
+reliability             Reliability of a Composite Scale
+stepwise                Stepwise Model Selection
+summarySandwich         Linear Model Summary with Sandwich Standard
+                        Errors
