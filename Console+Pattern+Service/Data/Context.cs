@@ -24,7 +24,7 @@ namespace Data
             //modelBuilder.Configurations.Add();
         }
         public DbSet<Inbox> inboxs { get; set; }
-        public DbSet<Message> Messages { get; set; }
+
     }
     
     
