@@ -17,9 +17,9 @@ namespace Domain.Entities
         public virtual Account From { get; set; }
         public virtual Account To { get; set; }
         //Foreign key
-        [Column(Order = 2)]
+        [ForeignKey("From"),Column(Order = 2)]
         public int AccountFromID { get; set; }
-        [Column(Order = 3)]
+        [ForeignKey("To"),Column(Order = 3)]
         public int AccountToID { get; set; }
         
     }

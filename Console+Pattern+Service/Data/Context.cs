@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Data.Configurations;
+using Domain.Entities;
 using MySql.Data.Entity;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,9 @@ namespace Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.Configurations.Add();
+            
+            modelBuilder.Configurations.Add(new AccountConfiguration());
+            //modelBuilder.Configurations.Add(new MessageConfiguration());
             modelBuilder.Properties<int>()
                 .Where(p => p.Name.EndsWith("ID"))
                 .Configure(p => p.IsKey());

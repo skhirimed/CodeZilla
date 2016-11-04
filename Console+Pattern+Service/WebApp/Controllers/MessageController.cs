@@ -33,18 +33,16 @@ namespace WebApp.Controllers
 
         // POST: Message/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Message message)
         {
-            try
-            {
-                // TODO: Add insert logic here
+            Message msg = new Message();
+            msg.MessageID = 2;
+            msg.AccountFromID = 1;
+            msg.AccountToID = 2;
+            msg.Text = "bjrrr";
+            messageService.Add(msg);
+            return RedirectToAction("Index");
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
         }
 
         // GET: Message/Edit/5
