@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Domain.Entities.Message>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Read)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.From.Login)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.To.Login)
+        </th>
+        
+        <th></th>
+    </tr>
+@if (Model != null)
+{
+ foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Read)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.From.Login)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.To.Login)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.MessageID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.MessageID })
+        </td>
+    </tr>
+}
+}
+
+</table>

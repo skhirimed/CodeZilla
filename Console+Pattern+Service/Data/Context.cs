@@ -22,8 +22,13 @@ namespace Data
         {
             base.OnModelCreating(modelBuilder);
             //modelBuilder.Configurations.Add();
+            modelBuilder.Properties<int>()
+                .Where(p => p.Name.EndsWith("ID"))
+                .Configure(p => p.IsKey());
         }
-        public DbSet<Inbox> inboxs { get; set; }
+        
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Message> Messages { get; set; }
         public DbSet<Item> Items { get; set; }
     }
     

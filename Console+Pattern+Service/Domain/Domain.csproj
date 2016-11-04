@@ -85,13 +85,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Administrator.cs" />
     <Compile Include="Entities\Answer.cs" />
     <Compile Include="Entities\Bookkeeper.cs" />
     <Compile Include="Entities\Buyer.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Expert.cs" />
-    <Compile Include="Entities\Inbox.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\Manager.cs" />
     <Compile Include="Entities\Message.cs" />
