@@ -8,5 +8,6 @@ namespace Domain.Entities
 {
     public class Item
     {
+        public int id { get; set; }
     }
 }

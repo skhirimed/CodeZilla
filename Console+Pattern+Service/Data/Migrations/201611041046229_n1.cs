@@ -3,7 +3,7 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class m1 : DbMigration
+    public partial class n1 : DbMigration
     {
         public override void Up()
         {
@@ -16,7 +16,7 @@ namespace Data.Migrations
                 .PrimaryKey(t => t.id);
             
             CreateTable(
-                "dbo.Messages",
+                "dbo.Items",
                 c => new
                     {
                         id = c.Int(nullable: false, identity: true),
@@ -27,7 +27,7 @@ namespace Data.Migrations
         
         public override void Down()
         {
-            DropTable("dbo.Messages");
+            DropTable("dbo.Items");
             DropTable("dbo.Inboxes");
         }
     }
