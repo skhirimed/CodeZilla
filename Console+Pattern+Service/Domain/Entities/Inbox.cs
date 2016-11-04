@@ -8,5 +8,6 @@ namespace Domain.Entities
 {
     public class Inbox
     {
+        public int id { get; set; }
     }
 }

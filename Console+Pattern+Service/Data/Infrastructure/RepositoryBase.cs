@@ -13,7 +13,7 @@ namespace Data.Infrastructure
         private Context dataContext;
         private readonly IDbSet<T> dbset;
         IDataBaseFactory databaseFactory;
-        protected RepositoryBase(IDataBaseFactory dbFactory)
+        public RepositoryBase(IDataBaseFactory dbFactory)
         {
             this.databaseFactory = dbFactory;
             dbset = DataContext.Set<T>();

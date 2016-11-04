@@ -30,7 +30,7 @@ namespace Data.Infrastructure
 
         public IRepositoryBase<T> getRepository<T>() where T : class
         {
-            IRepositoryBase<T> MyRepo = new RepositoryBase<T>(dataContext); 
+            IRepositoryBase<T> MyRepo = new RepositoryBase<T>(dbFactory); 
             return MyRepo;
         }
     }
