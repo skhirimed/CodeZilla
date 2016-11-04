@@ -86,6 +86,8 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\WebApp.
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\WebApp.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\WebApp.pdb
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.SqlServer.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -93,6 +95,8 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microso
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.Owin.Security.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\MySql.Data.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\MySql.Data.Entity.EF6.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Newtonsoft.Json.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Owin.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Net.Http.Formatting.dll
@@ -106,6 +110,8 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Web.WebPages.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Web.WebPages.Razor.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\WebGrease.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.SqlServer.xml
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -124,6 +130,8 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Newtons
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Net.Http.Formatting.xml
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Web.Http.xml
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\EntityFramework.resources.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\EntityFramework.SqlServer.resources.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Microsoft.AspNet.SignalR.Core.resources.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Microsoft.Owin.resources.dll
@@ -142,11 +150,3 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Syst
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\obj\Debug\WebApp.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\obj\Debug\WebApp.pdb
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.dll
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.SqlServer.dll
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\MySql.Data.dll
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\MySql.Data.Entity.EF6.dll
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.xml
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\EntityFramework.SqlServer.xml
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\EntityFramework.resources.dll
-C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\EntityFramework.SqlServer.resources.dll
