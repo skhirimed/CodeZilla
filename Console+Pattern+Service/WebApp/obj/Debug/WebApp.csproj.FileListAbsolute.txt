@@ -158,3 +158,9 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Pattern
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Data.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Pattern.pdb
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Data.pdb
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\WebApp\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll

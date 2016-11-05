@@ -16,3 +16,9 @@ C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\obj\Debug\Pattern.csprojResolveAssemblyReference.cache
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\obj\Debug\Pattern.dll
 C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\obj\Debug\Pattern.pdb
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Walid\Source\Repos\CodeZilla\Console+Pattern+Service\Pattern\bin\Debug\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll

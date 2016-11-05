@@ -65,5 +65,21 @@ namespace Pattern
         {
             uok.getRepository<T>().Update(entity);
         }
+
+
+        public void Commit()
+        {
+            try
+            {
+                uok.commit();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        
     }
 }

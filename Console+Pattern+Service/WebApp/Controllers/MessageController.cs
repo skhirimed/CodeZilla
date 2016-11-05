@@ -12,6 +12,7 @@ namespace WebApp.Controllers
     public class MessageController : Controller
     {
         MessageService messageService = new MessageService();
+        AccountService accountService = new AccountService();
         // GET: Message
         public ActionResult Index()
         {
@@ -36,11 +37,17 @@ namespace WebApp.Controllers
         public ActionResult Create(Message message)
         {
             Message msg = new Message();
+            
+            
             msg.MessageID = 2;
             msg.AccountFromID = 1;
-            msg.AccountToID = 2;
-            msg.Text = "bjrrr";
+            msg.AccountToID = message.AccountToID;
+            msg.Text = message.Text;
+            msg.From = accountService.GetById(1);
+            msg.To = accountService.GetById(message.AccountToID);
+            
             messageService.Add(msg);
+            messageService.Commit();
             return RedirectToAction("Index");
 
         }

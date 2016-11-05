@@ -23,8 +23,7 @@ namespace Data
         {
             base.OnModelCreating(modelBuilder);
             
-            modelBuilder.Configurations.Add(new AccountConfiguration());
-            //modelBuilder.Configurations.Add(new MessageConfiguration());
+            //modelBuilder.Configurations.Add(new AccountConfiguration());
             modelBuilder.Properties<int>()
                 .Where(p => p.Name.EndsWith("ID"))
                 .Configure(p => p.IsKey());

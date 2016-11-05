@@ -12,7 +12,7 @@ namespace Data.Configurations
     {
         public MessageConfiguration()
         {
-            HasRequired(a => a.From).WithMany(b => b.Messages).HasForeignKey(c => c.AccountFromID);
+            HasRequired(a => a.From).WithMany(b => b.MessagesSent).HasForeignKey(c => c.AccountFromID);
         }
     }
 }
