@@ -15,12 +15,12 @@ namespace Domain.Entities
         public String Text { get; set; }
         public bool Read { get; set; }
         //Prop de navifgation
-        public virtual Account From { get; set; }
-        public virtual Account To { get; set; }
+        public Account From { get; set; }
+        public Account To { get; set; }
         //Foreign key
-        [ForeignKey("From"),Column(Order = 2)]
+        [Column(Order = 2)]
         public int AccountFromID { get; set; }
-        [ForeignKey("To"),Column(Order = 3)]
+        [Column(Order = 3)]
         public int AccountToID { get; set; }
         
     }

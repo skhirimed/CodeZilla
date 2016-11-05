@@ -22,7 +22,10 @@ namespace Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            
+            modelBuilder.Entity<Message>()
+                .HasRequired(a => a.From).WithMany(b => b.MessagesSent).HasForeignKey(c => c.AccountFromID);
+            modelBuilder.Entity<Message>()
+                .HasRequired(a => a.To).WithMany(b => b.MessagesRecieved).HasForeignKey(c => c.AccountToID);
             //modelBuilder.Configurations.Add(new AccountConfiguration());
             modelBuilder.Properties<int>()
                 .Where(p => p.Name.EndsWith("ID"))

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApp.Models;
 
 namespace WebApp.Controllers
 {
@@ -18,6 +19,7 @@ namespace WebApp.Controllers
         {
             
             return View(messageService.GetMany(m => m.AccountToID==1));
+            
         }
 
         // GET: Message/Details/5
@@ -34,21 +36,26 @@ namespace WebApp.Controllers
 
         // POST: Message/Create
         [HttpPost]
-        public ActionResult Create(Message message)
+        public ActionResult Create(MessageView message)
         {
-            Message msg = new Message();
-            
-            
-            msg.MessageID = 2;
-            msg.AccountFromID = 1;
-            msg.AccountToID = message.AccountToID;
-            msg.Text = message.Text;
-            msg.From = accountService.GetById(1);
-            msg.To = accountService.GetById(message.AccountToID);
-            
-            messageService.Add(msg);
-            messageService.Commit();
-            return RedirectToAction("Index");
+            if (accountService.Get(a => a.Login == message.LoginDestinataire)!=null)
+            {
+                Message msg = new Message();
+                msg.AccountFromID = 1;
+                msg.AccountToID = accountService.Get(a => a.Login == message.LoginDestinataire).AccountID;
+                msg.Text = message.Text;
+                //msg.From = accountService.GetById(1);
+                //msg.To = accountService.GetById(message.AccountToID);
+
+                messageService.Add(msg);
+                messageService.Commit();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return Content("<script language='javascript' type='text/javascript'>alert('User "+message.LoginDestinataire+ " not found');window.location.href='http://localhost:2014/message/Create';</script>");
+            }
+           
 
         }
 

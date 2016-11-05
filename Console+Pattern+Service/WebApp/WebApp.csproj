@@ -185,6 +185,7 @@
     </Compile>
     <Compile Include="Hubs\ChatHub.cs" />
     <Compile Include="Hubs\Startup.cs" />
+    <Compile Include="Models\MessageView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -223,14 +224,21 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Chat.cshtml" />
     <Content Include="Views\Message\Index.cshtml" />
     <Content Include="Views\Message\Create.cshtml" />
+    <Content Include="Views\Shared\CreateTemplate.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Content\Template\css\" />
+    <Folder Include="Content\Template\img\" />
+    <Folder Include="Content\Template\js\" />
+    <Folder Include="Content\Template\master\" />
+    <Folder Include="Content\Template\php\" />
+    <Folder Include="Content\Template\vendor\" />
+    <Folder Include="Content\Template\video\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
